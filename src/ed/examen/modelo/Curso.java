@@ -1,8 +1,6 @@
-package ed.examen.modelo.test;
+package ed.examen.modelo;
 
 import java.util.*;
-
-import ed.examen.modelo.Persona;
 
 public class Curso {
 

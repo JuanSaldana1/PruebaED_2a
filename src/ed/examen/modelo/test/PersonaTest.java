@@ -1,8 +1,10 @@
-package ed.examen.modelo;
+package ed.examen.modelo.test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import ed.examen.modelo.Persona;
 
 public class PersonaTest {
 

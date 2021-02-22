@@ -3,6 +3,8 @@ package ed.examen.modelo.test;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import ed.examen.modelo.Curso;
 import ed.examen.modelo.Persona;
 
 public class CursoTest {
