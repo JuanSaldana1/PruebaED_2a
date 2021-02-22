@@ -37,7 +37,6 @@ public class CursoTest {
 		int sizeBefore = c.numeroAlumnos();
 		c.numeroAlumnos();
 		int sizeAfter = c.numeroAlumnos();
-
 	}
 
 	@Test

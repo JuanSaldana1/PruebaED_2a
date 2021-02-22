@@ -1,6 +1,12 @@
 package ed.examen.modelo;
 
 import java.util.*;
+/**
+ * Clase Curso, que almacenará un ArrayList de Personas, en este caso alumnos
+ * @author juan
+ * @version 1.0
+ *
+ */
 
 public class Curso {
 
