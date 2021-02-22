@@ -4,8 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import ed.examen.modelo.Curso;
-import ed.examen.modelo.Persona;
+import ed.examen.modelo.*;
 
 public class CursoTest {
 
@@ -34,7 +33,7 @@ public class CursoTest {
 
 	@Test
 	public void testAniadirAlumno() {
-		Persona p = new Persona("12345678", "Juan", "Saldana");
+		Persona p = new Persona("123456789", "Juan", "Saldana");
 		int sizeBefore = c.numeroAlumnos();
 		c.numeroAlumnos();
 		int sizeAfter = c.numeroAlumnos();
@@ -56,7 +55,7 @@ public class CursoTest {
 		// Clase invalida
 		lanzarExcepcion = false;
 		try {
-			c.estaRegistrado("12345678");
+			c.estaRegistrado("1234567");
 		} catch (Exception e) {
 			lanzarExcepcion = true;
 		}
